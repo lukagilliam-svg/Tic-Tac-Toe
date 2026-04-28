@@ -1,0 +1,47 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom, #1e293b, #0f172a);
+}
+
+.label {
+    -fx-text-fill: #e2e8f0;
+}
+
+.button {
+    -fx-background-radius: 8;
+    -fx-padding: 8 16;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.toolbar .button {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+}
+
+.toolbar .button:hover {
+    -fx-background-color: #2563eb;
+}
+
+.cell {
+    -fx-background-color: #334155;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-text-fill: #f8fafc;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 6, 0, 0, 2);
+}
+
+.cell:hover {
+    -fx-background-color: #475569;
+}
+
+.cell:disabled {
+    -fx-opacity: 1;
+}
+
+.cell.mark-x {
+    -fx-text-fill: #38bdf8;
+}
+
+.cell.mark-o {
+    -fx-text-fill: #f472b6;
+}
